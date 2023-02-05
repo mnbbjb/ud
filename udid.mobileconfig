@@ -16,7 +16,7 @@
             </array>
         </dict>
         <key>PayloadOrganization</key>
-        <string>udid.77xym.com</string>
+        <string>udid</string>
         <key>PayloadDisplayName</key>
         <string>柒柒定制 - 获取UDID设备码</string>
         <key>PayloadVersion</key>
