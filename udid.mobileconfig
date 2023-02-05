@@ -18,7 +18,7 @@
         <key>PayloadOrganization</key>
         <string>udid</string>
         <key>PayloadDisplayName</key>
-        <string>柒柒定制 - 获取UDID设备码</string>
+        <string>获取UDID设备码</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
@@ -26,7 +26,7 @@
         <key>PayloadIdentifier</key>
         <string>www.v-team.cn-service</string>
         <key>PayloadDescription</key>
-        <string>柒柒定制 - 获取UDID设备码	
+        <string>获取UDID设备码	
         
 (已通过苹果认证，放心安装，点击右上角“安装”开始获取设备UDID码！)
 
