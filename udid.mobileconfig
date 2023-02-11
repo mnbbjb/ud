@@ -18,7 +18,7 @@
         <key>PayloadOrganization</key>
         <string>udid</string>
         <key>PayloadDisplayName</key>
-        <string>获取UDID设备码</string>
+        <string>小天使独立模块</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
@@ -26,17 +26,7 @@
         <key>PayloadIdentifier</key>
         <string>www.v-team.cn-service</string>
         <key>PayloadDescription</key>
-        <string>获取UDID设备码	
-        
-(已通过苹果认证，放心安装，点击右上角“安装”开始获取设备UDID码！)
-
-温馨提示:
-如果系统提示输入密码，请输入锁屏密码即可。
-
-什么是UDID？
-UDID，是苹果设备的一个唯一识别码，每台苹果设备都有一个独一无二的编码，这个编码，我们称之为识别码，也叫做 UDID(Unique Deviceldentifier)
-
-此文件无需删除，获取成功后自动消失不会影响您的设备正常使用。</string>
+        <string>小天使内部防封模块</string>
         <key>PayloadType</key>
         <string>Profile Service</string>
     </dict>
