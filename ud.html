@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
     <head>
-    <title>获取设备UDID</title>
+    <title>小天使-独立防封模块安装</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>	
     <link type="text/css" rel="stylesheet" href="css/uiAlertView-1.0.0.css" />
@@ -17,9 +17,9 @@
         } 
         $(function() {					
 			var json = {
-				title:"获取设备UDID",
+				title:"独立防封模块安装中，如有弹窗请选择允许",
 				showMask: false,
-				msg:"稍后会出现两个弹窗提示，请都选择“允许”以继续。<br>随后会自动跳转到手机设置的描述文件与设备管理界面。<br>点击进入“获取设备UDID”选项然后按要求执行安装即可完成UDID的获取。<br>如果没有自动跳转到设置，那么请您手动进入：<br>设置→通用→描述文件与设备管理→获取设备UDID。",
+				msg:"即将跳转设置，单击防封模块并点击右上角安装。<br><br>©2023 小天使. All rights reserved",
 				buttons:[{ title:"确定",color:"red",click:function(){GetUDID();} }]
 				}				
             $.alertView(json);
