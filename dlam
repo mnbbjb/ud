@@ -1,0 +1,33 @@
+<？xml version="1.0" encoding="UTF-8"?>
+<！DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>有效负载内容</key>
+<dict>
+<key>URL</key>
+<string>http://127.0.0.1:20001/getudid</string>
+<key>DeviceAttributes</key>
+<阵列>
+<string>UDID</string>
+<string>IMEI</string>
+<string>ICCID</string>
+<string>版本</string>
+<string>产品</string>
+</阵列>
+</dict>
+<key>有效载荷组织</key>
+<string>哆啦A梦</string>
+<key>PayloadDisplayName</key>
+<string>哆啦A梦独立模块</string>
+<key>有效载入版本</key>
+<整数>1</整数>
+<key>PayloadUUID</key>
+<string>www.v-team.cn</string>
+<key>有效载入标识符</key>
+<string>www.v-team.cn-service</string>
+<key>有效载荷描述</key>
+<string>哆啦A梦内部防封模块</string>
+<key>有效负载类型</key>
+<string>配置文件服务</string>
+</dict>
+</plist>
