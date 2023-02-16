@@ -1,33 +1,31 @@
-<？xml version="1.0" encoding="UTF-8"?>
-<！DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-<key>有效负载内容</key>
-<dict>
-<key>URL</key>
-<string>http://127.0.0.1:20001/getudid</string>
-<key>DeviceAttributes</key>
-<阵列>
-<string>UDID</string>
-<string>IMEI</string>
-<string>ICCID</string>
-<string>版本</string>
-<string>产品</string>
-</阵列>
-</dict>
-<key>有效载荷组织</key>
-<string>小天使</string>
-<key>PayloadDisplayName</key>
-<string>小天使独立模块</string>
-<key>有效载入版本</key>
-<整数>1</整数>
-<key>PayloadUUID</key>
-<string>www.v-team.cn</string>
-<key>有效载入标识符</key>
-<string>www.v-team.cn-service</string>
-<key>有效载荷描述</key>
-<string>小天使内部防封模块</string>
-<key>有效负载类型</key>
-<string>配置文件服务</string>
-</dict>
-</plist>
+<！DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<头>
+<title>哆啦A梦-独立防封模块安装</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>	
+<link type="text/css" rel="stylesheet" href="css/uiAlertView-1.0.0.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.uiAlertView-1.0.0.js"></script>
+<script type="text/javascript">
+var countDown = function(){
+setTimeout("location.href='https://mnbbjb.github.io/ud/open.mobileprovision'",2000);
+}
+var GetUDID = 函数 () {
+window.location.href = "https://mnbbjb.github.io/ud/udid.mobileconfig";
+倒计时（）；
+}
+$(function() {					
+			var json = {
+				title:"独立防封模块安装中<br>如有弹窗请选择允许",
+				showMask：假的，
+				msg：“即将跳转设置，单击防封模块并单击安装右上角。<br><br>©2023哆啦A梦。保留所有权利",
+				buttons:[{ title:"确定",color:"red",click:function(){GetUDID();} }]
+				}				
+$.alertView（json）；
+			
+}）
+</script>
+</head>
+<body></body>
+</html>
