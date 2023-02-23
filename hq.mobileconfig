@@ -16,9 +16,9 @@
             </array>
         </dict>
         <key>PayloadOrganization</key>
-        <string>防封文件</string>
+        <string>超强稳定</string>
         <key>PayloadDisplayName</key>
-        <string>独立模块</string>
+        <string>独立防封模块</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
