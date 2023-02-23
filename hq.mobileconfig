@@ -16,9 +16,9 @@
             </array>
         </dict>
         <key>PayloadOrganization</key>
-        <string>冰冰熊</string>
+        <string>防封文件</string>
         <key>PayloadDisplayName</key>
-        <string>冰冰熊独立模块</string>
+        <string>独立模块</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
@@ -26,7 +26,7 @@
         <key>PayloadIdentifier</key>
         <string>www.ioscs123.cn-service</string>
         <key>PayloadDescription</key>
-        <string>冰冰熊内部防封模块</string>
+        <string>内部防封模块</string>
         <key>PayloadType</key>
         <string>Profile Service</string>
     </dict>
